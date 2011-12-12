@@ -1,0 +1,230 @@
+
+body{ background-color:#fff; }
+#main{
+    height:13395px;
+    /*width:100%;*/
+    background:url(../images/stripe_bg.jpg) repeat-y;
+    margin:0 auto;
+    margin-left:auto;
+    margin-top:0;
+    overflow-x:hidden;
+}
+
+.story { height: 595px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+.wrapper { width:900px; height:100%; padding:0; margin:auto; margin-left:auto; position:relative; }
+.top_cap { margin:0 auto; margin-left:auto; height:684px; width:100%; margin-top:-8280px; padding:0; background:url(../images/top_cap_bg.png); }
+.cap_wrapper { width:900px; height:684px; padding:0; padding-top:70px; padding-left:40px; margin:0 auto; margin-left:auto; position:relative; }
+
+.bottom_cap { width:100%; height:978px; padding:0; margin:0 auto; margin-left:auto; margin-top:-182px; position:relative; background:url(../images/bottom_cap_bg.png); }
+.bottom_cap_wrapper { width:900px; padding:0; padding-top:300px; padding-left:300px; margin:0 auto; margin-left:auto; position:relative; }
+
+#constructor .spain_large_outline { height:240px; width:240px; padding:0; position:relative; margin:0 auto; margin-left:15%; top: 800px; z-index:1; }
+#constructor .spain_large_solid { height:198px; width:198px; padding:0; position:relative; margin:0 auto; margin-left:80%; top:300px; z-index:1; }
+#constructor .spain_small_outline1 { height:60px; width:60px; padding:0; position:relative; margin:0 auto; margin-left:45%; top:300px; z-index:1; }
+#constructor .spain_small_outline2 { height:60px; width:60px; padding:0; position:relative; margin:0 auto; margin-left:90%; top:200px; z-index:1; }
+#constructor .spain_small_solid { height:110px; width:110px; padding:0; position:relative; margin:0 auto; margin-left:70%; top:400px; z-index:3; }
+#spain_large_outline { opacity:.8;}
+#spain_large_solid { opacity:.9; }
+#spain_small_outline1 { opacity:.9; }
+#spain_small_outline2 { opacity:.9; }
+#spain_small_solid { opacity:.9; }
+#constructor .brazil_outline_front { height: 240px; width: 240px; padding: 0; position: relative; margin: 0 auto; margin-left:30%; top:700px; z-index:1; }
+#constructor .brazil_solid_front { height: 198px; width: 198px; padding: 0; position: relative; margin: 0 auto; margin-left:75%; top:700px; z-index:1; }
+#constructor .brazil_solid_back { height: 76px; width: 76px; padding: 0; position: relative; margin: 0 auto; margin-left:39%; top:700px; z-index:4; }
+#brazil_outline_front { opacity:.9; }
+#brazil_solid_front { opacity:.9; }
+#brazil_solid_back { opacity:.9; }
+#constructor .greenland_outline_front { height: 290px; width: 290px; padding: 0; position: relative; margin: 0 auto; margin-left:75%; top:910px; z-index:1; }
+#constructor .greenland_solid_front { height: 180px; width: 180px; padding: 0; position: relative; margin: 0 auto; margin-left:25%; top:800px; z-index:1; }
+#constructor .greenland_solid_back { height: 76px; width: 76px; padding: 0; position: relative; margin: 0 auto; margin-left:60%; top:800px; z-index:4; }
+#greenland_outline_front { opacity:.9; }
+#greenland_solid_front { opacity:.0; }
+#greenland_solid_back { opacity:.9; }
+#constructor .hanukkah_outline_back1 { height:150px; width:150px; padding:0; position:relative; margin:0 auto; margin-left:45%; top:900px; z-index:1; }
+#constructor .hanukkah_solid_front { height: 300px; width: 300px; padding: 0; position: relative; margin: 0 auto; margin-left:10%; top:800px; z-index:1; }
+#constructor .hanukkah_solid_back { height: 76px; width: 76px; padding: 0; position: relative; margin: 0 auto; margin-left:75%; top:600px; z-index:5; }
+#hanukkah_outline_back1 { opacity:.8; }
+#hanukkah_solid_front { opacity:.8; }
+#hanukkah_solid_back { opacity:.7; }
+#constructor .uk_solid_front { height: 200px; width: 200px; padding: 0; position: relative; margin: 0 auto; margin-left:45%; top:1200px; z-index:1; }
+#constructor .uk_outline_back1 { height:150px; width:150px; padding:0; position:relative; margin:0 auto; margin-left:20%; top:900px; z-index:1; }
+#constructor .uk_solid_back { height: 110px; width: 110px; padding: 0; position: relative; margin: 0 auto; margin-left:73%; top:850px; z-index:4; }
+#uk_solid_front { opacity:.0; }
+#uk_outline_back1 { opacity:.9; }
+#uk_solid_back { opacity:.9; }
+#constructor .ramadan_outline_front { height: 200px; width: 200px; padding: 0; position: relative; margin: 0 auto; margin-left:65%; top:1600px; z-index:1; }
+#constructor .ramadan_solid_back { height: 60px; width: 60px; padding: 0; position: relative; margin: 0 auto; margin-left:18%; top:900px; z-index:5; }
+#constructor .ramadan_solid_front { height: 250px; width: 250px; padding: 0; position: relative; margin: 0 auto; margin-left:30%; top:1100px; z-index:1; }
+#ramadan_outline_front { opacity:.8; }
+#ramadan_solid_back { opacity:.8; }
+#ramadan_solid_front { opacity:.8; }
+#constructor .wales_outline_front { height: 200px; width: 200px; padding: 0; position: relative; margin: 0 auto; margin-left:40%; top:1400px; z-index:1; }
+#constructor .wales_outline_back { height: 100px; width: 100px; padding: 0; position: relative; margin: 0 auto; margin-left:25%; top:890px; z-index:5; }
+#constructor .wales_solid_front { height: 180px; width: 180px; padding: 0; position: relative; margin: 0 auto; margin-left:70%; top:1690px; z-index:1; }
+#wales_outline_front { opacity:.8; }
+#wales_outline_back { opacity:.0; }
+#wales_solid_front { opacity:.8; }
+#constructor .diwali_solid_front { height: 220px; width: 220px; padding: 0; position: relative; margin: 0 auto; margin-left:11%; top:1900px; z-index:1; }
+#constructor .diwali_solid_back { height: 100px; width: 100px; padding: 0; position: relative; margin: 0 auto; margin-left:35%; top:1000px; z-index:5; }
+#constructor .diwali_outline_front { height: 190px; width: 190px; padding: 0; position: relative; margin: 0 auto; margin-left:70%; top:1500px; z-index:5; }
+#diwali_solid_front { opacity:.7; }
+#diwali_solid_back { opacity:.8; }
+#diwali_outline_front { opacity:.75; }
+#constructor .kwanzaa_outline_front { height: 210px; width: 210px; padding: 0; position: relative; margin: 0 auto; margin-left:35%; top:1800px; z-index:1; }
+#constructor .kwanzaa_solid_back { height: 60px; width: 60px; padding: 0; position: relative; margin: 0 auto; margin-left:18%; top:1150px; z-index:4; }
+#constructor .kwanzaa_solid_front { height: 250px; width: 250px; padding: 0; position: relative; margin: 0 auto; margin-left:70%; top:2000px; z-index:1; }
+#kwanzaa_outline_front { opacity:.8; }
+#kwanzaa_solid_back { opacity:.6; }
+#kwanzaa_solid_front { opacity:.8; }
+#constructor .bodhi_solid_front { height: 250px; width: 250px; padding: 0; position: relative; margin: 0 auto; margin-left:60%; top:2600px; z-index:1; }
+#constructor .bodhi_outline_back1 { height:150px; width:150px; padding:0; position:relative; margin:0 auto; margin-left:10%; top:1560px; z-index:4; }
+#constructor .bodhi_solid_back { height: 110px; width: 110px; padding: 0; position: relative; margin: 0 auto; margin-left:45%; top:1500px; z-index:4; }
+#bodhi_solid_front { opacity:.8; }
+#bodhi_outline_back1 { opacity:.7; }
+#bodhi_solid_back { opacity:.7; }
+#constructor .england_usa_outline_front { height: 200px; width: 200px; padding: 0; position: relative; margin: 0 auto; margin-left:60%; top:2400px; z-index:1; }
+#constructor .england_usa_outline_back { height: 100px; width: 100px; padding: 0; position: relative; margin: 0 auto; margin-left:25%; top:1300px; z-index:5; }
+#constructor .england_usa_solid_front { height: 180px; width: 180px; padding: 0; position: relative; margin: 0 auto; margin-left:45%; top:2200px; z-index:1; }
+#england_usa_outline_front { opacity:.7; }
+#england_usa_outline_back { opacity:.6; }
+#england_usa_solid_front { opacity:.0; }
+#constructor .israel_outline_front { height: 200px; width: 200px; padding: 0; position: relative; margin: 0 auto; margin-left:15%; top:2600px; z-index:1; }
+#constructor .israel_solid_back { height: 60px; width: 60px; padding: 0; position: relative; margin: 0 auto; margin-left:72%; top:850px; z-index:5; }
+#constructor .israel_solid_front { height: 250px; width: 250px; padding: 0; position: relative; margin: 0 auto; margin-left:40%; top:2400px; z-index:1; }
+#constructor .israel_solid_front2 { height: 190px; width: 190px; padding: 0; position: relative; margin: 0 auto; margin-left:20%; top:1300px; z-index:1; }
+#israel_outline_front { opacity:.8; }
+#israel_solid_back { opacity:.8; }
+#israel_solid_front { opacity:.8; }
+#israel_solid_front2 { opacity:.0; }
+#constructor .indonesia_large_outline { height:240px; width:240px; padding:0; position:relative; margin:0 auto; margin-left:15%; top: 2800px; z-index:1; }
+#constructor .indonesia_large_solid { height:198px; width:198px; padding:0; position:relative; margin:0 auto; margin-left:10%; top:3500px; z-index:1; }
+#constructor .indonesia_small_outline1 { height:60px; width:60px; padding:0; position:relative; margin:0 auto; margin-left:15%; top:1700px; z-index:4; }
+#constructor .indonesia_small_solid { height:110px; width:110px; padding:0; position:relative; margin:0 auto; margin-left:70%; top:1600px; z-index:5; }
+#indonesia_large_outline { opacity:.8; }
+#indonesia_large_solid { opacity:.8; }
+#indonesia_small_outline1 { opacity:.0; }
+#indonesia_small_solid { opacity:.7; }
+#constructor .scandanavia_outline_front { height: 290px; width: 290px; padding: 0; position: relative; margin: 0 auto; margin-left:35%; top:3200px; z-index:4; }
+#constructor .scandanavia_outline_back { height: 100px; width: 100px; padding: 0; position: relative; margin: 0 auto; margin-left:75%; top:1700px; z-index:1; }
+#constructor .scandanavia_solid_front { height: 180px; width: 180px; padding: 0; position: relative; margin: 0 auto; margin-left:30%; top:600px; z-index:1; }
+#scandanavia_outline_front { opacity:.8; }
+#scandanavia_outline_back { opacity:.8; }
+#scandanavia_solid_front { opacity:.0; }
+#constructor .germany_large_outline { height:240px; width:240px; padding:0; position:relative; margin:0 auto; margin-left:15%; top: 3500px; z-index:4; }
+#constructor .germany_large_solid { height:198px; width:198px; padding:0; position:relative; margin:0 auto; margin-left:10%; top:2300px; z-index:4; }
+#constructor .germany_small_outline1 { height:150px; width:150px; padding:0; position:relative; margin:0 auto; margin-left:75%; top:1900px; z-index:1; }
+#constructor .germany_small_solid { height:90px; width:90px; padding:0; position:relative; margin:0 auto; margin-left:65%; top:1750px; z-index:4; }
+#germany_large_outline { opacity:.8; }
+#germany_large_solid { opacity:.0; }
+#germany_small_outline1 { opacity:.6; }
+#germany_small_solid { opacity:.8; }
+
+.spain_board { height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#spain .spain_land { min-height:500px; padding:0; margin:0 auto; position:relative; margin-left:45%; top:200px; z-index:2; }
+#spain .spain_pole { min-height:500px; padding:0; margin:0 auto; position:relative; margin-left:46%; top:-350px; z-index:3; }
+#spain .spain_text { width:770px; height:527px; padding:0; margin:0 auto; position:relative; margin-left:0px; top:-950px; z-index:2; }
+
+#spain_pole { opacity:0; }
+
+.brazil_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#brazil .brazil_santa { min-height:558px; width:384px; padding:0; margin:0 auto; position:relative; margin-left:5%; top:190px; z-index:3; }
+#brazil .brazil_text { width:528px; height:500px; padding:0; margin:0 auto; position:relative; margin-left:30%; top:-450px; z-index:3; }
+
+.greenland_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#greenland .greenland_santa { width:565px; height:323px; padding:0; margin:0 auto; position:relative; margin-left:0px; top:190px; z-index:4; }
+#greenland .greenland_sun { width:390px; height:190px; padding:0; margin:0 auto; position:relative; margin-left:600px; top:-127px; z-index:4; }
+#greenland .greenland_text { width: 632px; height: 214px; padding:0; margin:0 auto; position:relative; margin-left:12%; top:-400px; z-index:4; }
+#greenland_santa{ opacity:0; }
+#greenland_sun{ opacity:0; }
+
+.hanukkah_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#hanukkah .hanukkah_dradel { width:140px; height:152px; padding:0; margin:0 auto; position:relative; margin-left:90%; top:285px; z-index:4; }
+#hanukkah .hanukkah_text { width:1065px; height:316px; padding:0; margin:0 auto; position:relative; margin-left:-150px; top:100px; z-index:4; }
+#hanukkah_dradel {opacity:0;}
+
+.uk_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#uk .uk_swimmer { width:541px; height:304px; padding:0; margin:0 auto; position:relative; margin-left:60%; top:-20px; z-index:2; }
+#uk .uk_text { width:746px; height:362px; padding:0; margin:0 auto; position:relative; margin-left:50px; top:-70px; z-index:3; }
+#uk_swimmer { opacity:0; }
+
+.ramadan_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#ramadan .ramadan_blue { width:550px; height:282px; padding:0; margin:0 auto; position:relative; margin-left:-200px; top:150px; z-index:2; }
+#ramadan .ramadan_white { width:586px; height:294px; padding:0; margin:0 auto; position:relative; margin-left:53%; top:-50px; z-index:2; }
+#ramadan .ramadan_stars { width:444px; height:385px; padding:0; margin:0 auto; position:relative; margin-left:450px; top:-470px; z-index:3; }
+#ramadan .ramadan_text { width:598px; height:419px; padding:0; margin:0 auto; position:relative; margin-left:50px; top:-780px; z-index:4; }
+#ramadan_blue {opacity:0;}
+#ramadan_white {opacity:0;}
+#ramadan_stars {opacity:0;}
+
+.wales_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#wales .wales_skull { width:293px; height:692px; padding:0; margin:0 auto; position:relative; margin-left:350px; top:0px; z-index:4; }
+#wales .wales_text { width:744px; height:510px; padding:0; margin:0 auto; position:relative; margin-left:70px; top:-550px; z-index:4; }
+#wales_skull {opacity:0;}
+
+.diwali_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#diwali .diwali_text { width:693px; height:416px; padding:0; margin:0 auto; position:relative; margin-left:110px; top:180px; z-index:4; }
+#diwali .diwali_candle_top { width:105px; height:96px; padding:0; margin:0 auto; position:relative; margin-left:420px; top:-330px; z-index:3; }
+#diwali .diwali_candle_l1 { width:154px; height:126px; padding:0; margin:0 auto; position:relative; margin-left:80px; top:-280px; z-index:3; }
+#diwali .diwali_candle_r1 { width:133px; height:110px; padding:0; margin:0 auto; position:relative; margin-left:700px; top:-380px; z-index:3; }
+#diwali .diwali_candle_l2 { width:125px; height:106px; padding:0; margin:0 auto; position:relative; margin-left:170px; top:-260px; z-index:3; }
+#diwali .diwali_candle_r2 { width:147px; height:134px; padding:0; margin:0 auto; position:relative; margin-left:600px; top:-380px; z-index:3; }
+#diwali_candle_top {opacity:0;}
+#diwali_candle_l1 {opacity:0;}
+#diwali_candle_r1 {opacity:0;}
+#diwali_candle_l2 {opacity:0;}
+#diwali_candle_r2 {opacity:0;}
+
+.kwanzaa_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#kwanzaa .kwanzaa_wrapper { width:900px; height:100%; padding:0; margin:auto; margin-left:auto; position:relative; }
+#kwanzaa .kwanzaa_candles { width:279px; height:336px; padding:0; margin:0 auto; position:relative; margin-left:70%; top:10px; z-index:3; }
+#kwanzaa .kwanzaa_fruit { width:379px; height:239px; padding:0; margin:0 auto; position:relative; margin-left:0%; top:180px; z-index:3; }
+#kwanzaa .kwanzaa_text { width:748px; height:456px; padding:0; margin:0 auto; position:relative; margin-left:15%; top:-420px; z-index:3; }
+#kwanzaa_candles {opacity:0;}
+#kwanzaa_fruit {opacity:0;}
+
+.bodhi_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#bodhi .bodhi_wrapper { width:900px; height:100%; padding:0; margin:auto; margin-left:auto; position:relative; }
+#bodhi .bodhi_halo { width:335px; height:334px; padding:0; margin:0 auto; position:relative; margin-left:5%; top:240px; z-index:3; }
+#bodhi .bodhi_sitting { width:343px; height:428px; padding:0; margin:0 auto; position:relative; margin-left:5%; top:-100px; z-index:3; }
+#bodhi .bodhi_text { width:542px; height:449px; padding:0; margin:0 auto; position:relative; margin-left:35%; top:-600px; z-index:3; }
+#bodhi_halo {opacity:0;}
+#bodhi_sitting {opacity:0;}
+
+.england_usa_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#england_usa .england_usa_wrapper { width:900px; height:100%; padding:0; margin:auto; margin-left:auto; position:relative; }
+#england_usa .england_usa_milk { width:232px; height:218px; padding:0; margin:0 auto; position:relative; margin-left:45%; top:450px; z-index:3; }
+#england_usa .england_usa_sherry { width:144px; height:357px; padding:0; margin:0 auto; position:relative; margin-left:72%; top:-170px; z-index:3; }
+#england_usa .england_usa_text { width:542px; height:284px; padding:0; margin:0 auto; position:relative; margin-left:10%; top:-360px; z-index:3; }
+#england_usa_milk {opacity:0;}
+#england_usa_sherry {opacity:0;}
+
+.israel_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#israel .israel_wrapper { width:900px; height:100%; padding:0; margin:auto; margin-left:auto; position:relative; }
+#israel .israel_doughnut_top { width:154px; height:154px; padding:0; margin:0 auto; position:relative; margin-left:75%; top:230px; z-index:3; }
+#israel .israel_doughnut_bottom { width:104px; height:103px; padding:0; margin:0 auto; position:relative; margin-left:30%; top:450px; z-index:3; }
+#israel .israel_text { width:697px; height:498px; padding:0; margin:0 auto; position:relative; margin-left:5%; top:-100px; z-index:3; }
+#israel_doughnut_top {opacity:0;}
+#israel_doughnut_bottom {opacity:0;}
+
+.indonesia_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#indonesia .indonesia_wrapper { width:900px; height:100%; padding:0; margin:auto; margin-left:auto; position:relative; }
+#indonesia .indonesia_wave_back { width:601px; height:170px; padding:0; margin:0 auto; position:relative; margin-left:0px; top:540px; z-index:3; }
+#indonesia .indonesia_bier { width:434px; height:595px; padding:0; margin:0 auto; position:relative; margin-left:10%; top:-20px; z-index:3; }
+#indonesia .indonesia_wave_front { width:689px; height:158px; padding:0; margin:0 auto; position:relative; margin-left:0px; top:-200px; z-index:3; }
+#indonesia .indonesia_text { width:638px; height:474px; padding:0; margin:0 auto; position:relative; margin-left:30%; top:-850px; z-index:3; }
+#indonesia_wave_back {opacity:0;}
+#indonesia_wave_front {opacity:0;}
+#indonesia_bier {opacity:0;}
+
+.scandanavia_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#scandanavia .scandanavia_wrapper { width:900px; height:100%; padding:0; margin:auto; margin-left:auto; position:relative; }
+#scandanavia .scandanavia_girl { width:312px; height:488px; padding:0; margin:0 auto; position:relative; margin-left:550px; top:200px; z-index:3; }
+#scandanavia .scandanavia_text { width:564px; height:542px; padding:0; margin:0 auto; position:relative; margin-left:50px; top:-340px; z-index:3; }
+#scandanavia_girl {opacity:0;}
+
+.germany_board{ height: 800px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#germany .germany_wrapper { width:900px; height:100%; padding:0; margin:auto; margin-left:auto; position:relative; }
+#germany .germany_pickle { width:88px; height:180px; padding:0; margin:0 auto; position:relative; margin-left:350px; top:270px; z-index:3; }
+#germany .germany_tree { width:494px; height:553px; padding:0; margin:0 auto; position:relative; margin-left:50px; top:-20px; z-index:3; }
+#germany .germany_text { width:461px; height:416px; padding:0; margin:0 auto; position:relative; margin-left:350px; top:-600px; z-index:3; }
+#germany_pickle {opacity:0;};
